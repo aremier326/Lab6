@@ -1,0 +1,17 @@
+@startuml
+
+class Server
+
+class Bicycle
+class Car
+class Jumpers
+class RollerSkates
+
+abstract Vehicle
+
+Vehicle <|-- Bicycle
+Vehicle <|-- Car
+Vehicle <|-- Jumpers
+Vehicle <|-- RollerSkates
+
+@enduml
